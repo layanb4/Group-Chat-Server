@@ -21,10 +21,10 @@ This will produce two executables in the build/ directory:
 -client
 
 
-###How to run
+### How to run
 Start the server by:
--<port>: Port number to listen on (e.g., 8000)<br>
--<# of clients>: Total number of expected clients (e.g., 5)<br>
+- <port>: Port number to listen on (e.g., 8000)
+- <# of clients>: Total number of expected clients (e.g., 5)
 
 ```./build/server <port> <# of clients>```
 
@@ -34,10 +34,10 @@ ex.
 Run the client by:
 ```./build/client <IP> <port> <# of messages> <log file path>```
 
--<IP>: IP address of the server (e.g., 127.0.0.1)<br>
--<port>: Port number the server is listening on (e.g., 8000)<br>
--<# of messages>: Number of random messages the client should send<br>
--<log file path>: File to save received messages<br>
+- <IP>: IP address of the server (e.g., 127.0.0.1)
+- <port>: Port number the server is listening on (e.g., 8000)
+- <# of messages>: Number of random messages the client should send
+- <log file path>: File to save received messages
 
 ex.
 ```./build/client 127.0.0.1 8000 10 client1.log```
