@@ -17,8 +17,8 @@ cmake -S . -B build
 cmake --build build
 ```
 This will produce two executables in the build/ directory:
--server
--client
+- server
+- client
 
 
 ### How to run
